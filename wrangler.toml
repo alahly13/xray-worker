@@ -1,15 +1,14 @@
-name = "xray"
+name = "xray-worker"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = false
 
-
-account_id = "c94c08c1fa3eb249700c89571fc3a332"
+account_id = "1ed4278f71b95d7ff3c61a3cff2940f7"
 workers_dev = true
 
 [[kv_namespaces]]
 binding = "YUMI"
-id = "4bf5f900d3034fd3ba03ee4c23aa2f8d"
+id = "d40d6da55f8844488b06d6d68727ac0b"
 
 [build]
 command = "cargo install worker-build@0.8.3 && worker-build --release"
